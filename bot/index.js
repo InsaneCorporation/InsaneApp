@@ -11,7 +11,7 @@ bot.command('start', (ctx) => {
   ctx.reply('Bienvenue sur InsaneApp ! Clique ici pour te connecter :', {
     reply_markup: {
       inline_keyboard: [
-        [{ text: '🚀 Ouvrir InsaneApp', web_app: { url: 'https://insanecorporation.github.io/ton-connect-page/index.html' } }]
+        [{ text: '🚀 Ouvrir InsaneApp', web_app: { url: 'https://github.com/InsaneCorporation/InsaneApp' } }]
       ]
     }
   });
